@@ -1,0 +1,132 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1200px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+
+body {
+    color: #000000;
+    font-size: 16px;
+    line-height: 19px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.header {
+    background: #F58021;
+}
+
+.header__inner {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+}
+
+.menu__list {
+    display: flex;
+}
+
+.header__social-link {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.menu__item {
+    margin: 0 15px;
+}
+
+.header__social-item {
+    margin: 0 15px;
+}
+
+.menu__list-link {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 150%;
+    /* identical to box height, or 27px */
+    text-transform: uppercase;
+}
+
+.top {
+    background-image: url(../img/top-background.jpg);
+    height: 790px;
+    width: 1920px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.top__content {
+    margin-top: 129px;
+    text-align: left;
+}
+
+.top__title {
+    width: 890px;
+    height: 280px;
+    left: 260px;
+    top: 239px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 82px;
+    line-height: 100px;
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+    /* Turquoise */
+    color: #00A092;
+}
+
+.top__text {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 430px;
+    height: 76px;
+    left: 260px;
+    top: 569px;
+    /* Body */
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 150%;
+    /* or 27px */
+    color: #000000;
+}
+
+.view-btn {
+    margin-top: 50px;
+    padding: 26px 45px;
+    width: 240px;
+    height: 74px;
+    left: calc(50% - 240px/2 - 580px);
+    top: calc(50% - 74px/2 + 282px);
+    background: #F58021;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.view__btn-union {
+    width: 24.28px;
+    height: 22px;
+    margin-left: 10px;
+    margin-bottom: 1px;
+    text-align: center;
+}
